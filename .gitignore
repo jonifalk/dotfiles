@@ -1,0 +1,12 @@
+*
+!*/
+JetBrains/
+
+!/.gitignore
+!/.editorconfig
+!/README.md
+!nixos/*
+!nix-darwin/*
+!home-manager/*
+!flake.nix
+!flake.lock
