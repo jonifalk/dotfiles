@@ -140,7 +140,7 @@ in
       };
     };
     xserver = {
-      xkb.layout = "us";
+      xkb.layout = "gb";
       videoDrivers = [ "nvidia" ];
     };
     desktopManager.plasma6.enable = true;
