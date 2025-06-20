@@ -51,6 +51,7 @@
     btop
     sshfs
     icu
+    audacious
     discord
     vesktop
     google-chrome
