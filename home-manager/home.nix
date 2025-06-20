@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+ config, pkgs, ... }:
 
 {
   home.username = "joni";
@@ -59,6 +59,7 @@
     obsidian
     signal-desktop-bin
     prismlauncher
+    nexusmods-app
     git
     git-annex
 
@@ -67,6 +68,7 @@
     darktable
     thunderbird
     zoom-us
+    slack
     wget
     podman
     ookla-speedtest
