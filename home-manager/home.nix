@@ -136,7 +136,7 @@
           file = "share/zsh-powerlevel10k/powerlevel10k.zsh-theme";
         }
       ];
-      initExtra = ''
+      initContent = ''
         source ~/.p10k.zsh
       '';
     };
@@ -226,7 +226,7 @@
   services.gpg-agent = {
     enable = true;
     enableSshSupport = true;
-    pinentryPackage =
+    pinentry.package =
       if pkgs.stdenv.isLinux then
         pkgs.pinentry-all
       else
