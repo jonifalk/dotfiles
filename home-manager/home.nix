@@ -60,6 +60,7 @@
     obsidian
     signal-desktop-bin
     prismlauncher
+    steamtinkerlaunch
     nexusmods-app-unfree
     git
     git-annex
