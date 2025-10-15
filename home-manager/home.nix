@@ -63,11 +63,6 @@
     nexusmods-app
     git
     git-annex
-    idea-ultimate
-    phpstorm
-    webstorm
-    dataspell
-    datagrip
 
     mpv
     ffmpeg
