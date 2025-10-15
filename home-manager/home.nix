@@ -63,7 +63,6 @@
     nexusmods-app
     git
     git-annex
-    pycharm-professional
     idea-ultimate
     phpstorm
     webstorm
