@@ -63,6 +63,12 @@
     nexusmods-app
     git
     git-annex
+    pycharm-professional
+    idea-ultimate
+    phpstorm
+    webstorm
+    dataspell
+    datagrip
 
     mpv
     ffmpeg
@@ -75,6 +81,7 @@
     ookla-speedtest
     iperf
     iperf2
+    kotlin
     python311Packages.pygments
   ];
 
