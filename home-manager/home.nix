@@ -63,6 +63,7 @@
     nexusmods-app
     git
     git-annex
+    pycharm-professional
 
     mpv
     ffmpeg
