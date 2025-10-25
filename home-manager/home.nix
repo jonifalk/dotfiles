@@ -63,7 +63,7 @@
     nexusmods-app
     git
     git-annex
-    pycharm-professional
+    jetbrains.pycharm-professional
 
     mpv
     ffmpeg
