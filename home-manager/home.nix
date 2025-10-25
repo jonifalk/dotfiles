@@ -77,7 +77,8 @@
     iperf
     iperf2
     kotlin
-    python311Packages.pygments
+    python313
+    python313Packages.pygments
   ];
 
   home.file = {
