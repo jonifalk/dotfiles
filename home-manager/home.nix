@@ -61,6 +61,7 @@
     signal-desktop-bin
     prismlauncher
     nexusmods-app
+    libreoffice
     git
     git-annex
     jetbrains.pycharm-professional
