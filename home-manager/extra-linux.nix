@@ -8,7 +8,6 @@
     pinentry-all
     gamescope
     makemkv
-    whatsapp-for-linux
     popsicle
     powertop
     nerd-fonts.droid-sans-mono
