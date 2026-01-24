@@ -58,6 +58,7 @@
     feishin
     spotify
     obsidian
+    protonvpn-gui
     signal-desktop-bin
     prismlauncher
     libreoffice
