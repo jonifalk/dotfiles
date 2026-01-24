@@ -60,7 +60,6 @@
     obsidian
     signal-desktop-bin
     prismlauncher
-    nexusmods-app
     libreoffice
     git
     git-annex
