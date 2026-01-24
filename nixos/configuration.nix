@@ -116,8 +116,21 @@ in
 
   programs = {
     sway.enable = true;
-    steam.enable = true;
     zsh.enable = true;
+  };
+
+  programs.steam = {
+    enable = true;
+    package = with pkgs; steam.override { extraPkgs = pkgs: [
+      jq
+      cabextract
+      wget
+      pkgsi686Linux.libpulseaudio
+      pkgsi686Linux.freetype
+      pkgsi686Linux.xorg.libXcursor
+      pkgsi686Linux.xorg.libXcomposite
+      pkgsi686Linux.xorg.libXi
+    ];};
   };
 
   security.rtkit.enable = true;
