@@ -64,7 +64,7 @@
     libreoffice
     git
     git-annex
-    jetbrains.pycharm-professional
+    jetbrains.pycharm
 
     mpv
     ffmpeg
