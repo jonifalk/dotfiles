@@ -163,7 +163,7 @@
       defaultEditor = true;
       extraConfig = ''
       '';
-      extraLuaConfig = ''
+      initLua = ''
         vim.cmd("colorscheme nightfly")
         local metals_config = require("metals").bare_config()
         metals_config.settings = {
