@@ -52,7 +52,7 @@ in
 
   environment.systemPackages = with pkgs; [
     wireshark
-    helvum
+    crosspipe
     linuxptp
     alsa-utils
     dive # look into docker image layers
