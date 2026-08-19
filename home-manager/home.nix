@@ -163,6 +163,8 @@
       defaultEditor = true;
       extraConfig = ''
       '';
+      withRuby = false;
+      withPython3 = false;
       initLua = ''
         vim.cmd("colorscheme nightfly")
         local metals_config = require("metals").bare_config()
@@ -184,6 +186,7 @@
         ale
         {
           plugin = deoplete-nvim;
+          type = "lua";
           config = ''
             let g:deoplete#enable_at_startup = 1
             set completeopt=menu,noinsert
@@ -191,12 +194,14 @@
         }
         {
           plugin = deoplete-lsp;
+          type = "lua";
           config = ''
             g:deoplete#lsp#handler_enabled = 1
           '';
         }
         {
           plugin = nerdtree;
+          type = "lua";
           config = ''
             " Start NERDTree and put the cursor back in the other window.
             autocmd VimEnter * NERDTree | wincmd p
@@ -210,6 +215,7 @@
         }
         {
           plugin = telescope-nvim;
+          type = "lua";
           config = ''
             nnoremap ff <cmd>Telescope find_files<cr>
             nnoremap fg <cmd>Telescope live_grep<cr>
@@ -231,7 +237,7 @@
     enable = true;
     enableSshSupport = true;
     pinentry.package =
-      if pkgs.stdenv.isLinux then
+      if pkgs.stdenv.hostPlatform.isLinux then
         pkgs.pinentry-all
       else
         pkgs.pinentry_mac;
